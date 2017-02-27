@@ -1,0 +1,59 @@
+a,
+.btn {
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+h1 {
+    color: #418109;
+}
+p {
+    font-size: 1.3em;
+}
+.page-header p {
+    max-width: 500px;
+}
+.alert {
+    display: none;
+}
+#mapWrapper {
+    display: none;
+    margin-bottom: 2em;
+}
+#mapNextBtn {
+    display: none;
+}
+.loader {
+    border: 8px solid #f3f3f3;
+    /* Light grey */
+    border-top: 8px solid #418109;
+    /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    margin: auto;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+#reportWrapper {
+    margin-bottom: 3em;
+}
+.indexIcons {
+    margin-top: 3em;
+}
+.indexIcons p {
+    margin-top: .7em;
+}
+.indexIcons i:hover,
+.indexIcons p:hover {
+    cursor: pointer;
+}
