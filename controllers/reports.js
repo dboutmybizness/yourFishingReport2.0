@@ -1,5 +1,7 @@
 module.exports = {
     index: function (req, res) {
-        res.render('reports');
+        res.render('reports', {
+            mapScripts: true
+        });
     }
 };
