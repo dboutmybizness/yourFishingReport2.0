@@ -12,6 +12,10 @@ h1 {
 p {
     font-size: 1.3em;
 }
+.nav-container {
+    margin-bottom: 5em;
+    border-bottom: solid #337ab7 1px;
+}
 .page-header p {
     max-width: 500px;
 }
@@ -47,8 +51,11 @@ p {
 #reportWrapper {
     margin-bottom: 3em;
 }
+.indexIcons div {
+    margin-top: 2em;
+}
 .indexIcons {
-    margin-top: 3em;
+    margin: 0;
 }
 .indexIcons p {
     margin-top: .7em;
@@ -56,4 +63,13 @@ p {
 .indexIcons i:hover,
 .indexIcons p:hover {
     cursor: pointer;
+}
+#footer {
+    margin-top: 8em;
+    border-top: solid #337ab7 1px;
+    text-align: center;
+    font-size: 12px;
+}
+#footer p {
+    margin-top: 2em;
 }
