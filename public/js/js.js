@@ -1,3 +1,5 @@
+reportObj = new Object;
+
 // User alert 
 // type can be any Bootstrap alert class (warning, success, etc)
 function userAlert(type, message) {

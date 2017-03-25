@@ -1,5 +1,3 @@
-reportObj = new Object;
-
 // Get user's location
 (function () {
     if (navigator.geolocation) {
@@ -12,7 +10,7 @@ reportObj = new Object;
             $('.loader').hide();
             $('#mapWrapper, #mapNextBtn').fadeIn('slow');
             $('.page-header h1').text('There you are!');
-            $('.page-header p').text('Now just click the map to add a marker in the desired location and click continue.');
+            $('.page-header p').text('Here are some reports we found near you.');
             initMap();
         })
     }
