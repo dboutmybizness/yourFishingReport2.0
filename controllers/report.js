@@ -1,7 +1,8 @@
 module.exports = {
     index: function (req, res) {
         res.render('form', {
-            mapScripts: true
+            mapScripts: true, 
+            mapMarkerScript: true
         });
     },
     create: function (req, res) {

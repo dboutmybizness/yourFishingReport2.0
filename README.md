@@ -4,3 +4,4 @@ A basic Node / Express js MVC/MVVM project template.
 - Install node js
 - run 'npm init' to install dependencies
 
+Good book on topic: Web Development with MongoDB and NodeJS - Second Edition
