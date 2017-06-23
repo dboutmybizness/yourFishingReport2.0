@@ -10,7 +10,7 @@
             $('.loader').hide();
             $('#mapWrapper, #mapNextBtn').fadeIn('slow');
             $('.page-header h1').text('There you are!');
-            $('.page-header p').text('Here are some reports we found near you.');
+            //$('.page-header p').text('Here are some reports we found near you.');
             initMap();
         })
     }
